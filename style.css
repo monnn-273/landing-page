@@ -68,3 +68,65 @@ a {
   width: 380px;
   align-self: center;
 }
+
+.about {
+  color: white;
+  background-color: #ad5d52;
+  height: 550px;
+  margin: 40px 0 0 0;
+  padding: 0 10%;
+  display: flex;
+}
+
+.about > div {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about > h1 {
+  font-size: 100px;
+}
+
+.about > img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  height: 720px;
+  background: red;
+}
+
+.portfolio > intro {
+  height: 100px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+
+}
+
+.portfolio-content {
+  height: 620px;
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: green;
+  height: 100%;
+}
+
+.card > img {
+    object-fit: cover;
+    height: 180px;
+    width: 100%;
+
+
+}
