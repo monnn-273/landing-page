@@ -1,0 +1,67 @@
+:root {
+  --secondary-text: #4a5568;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: white;
+  height: 85px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar > h1 {
+  font-size: 20px;
+}
+
+.nav-item {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-container {
+  display: flex;
+  height: 470px;
+  background-color: white;
+  padding: 0 10%;
+}
+
+.hero-container > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container > h1 {
+  font-size: 100px;
+  width: 360px;
+  margin: 20px 0;
+}
+
+.hero-container > p {
+  font-size: 30px;
+  color: var(--secondary-text);
+}
+
+.hero-container > img {
+  width: 50%;
+  height: 400px;
+  width: 380px;
+  align-self: center;
+}
