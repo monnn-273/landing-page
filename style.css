@@ -9,6 +9,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar {
   background: white;
   height: 85px;
@@ -19,13 +24,9 @@ body {
   box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
 }
 
-.navbar > a {
-  text-decoration: none;
-  color: white;
-}
-
 .navbar > h1 {
   font-size: 20px;
+  font-weight: bolder;
 }
 
 .nav-item {
@@ -38,10 +39,11 @@ body {
   height: 470px;
   background-color: white;
   padding: 0 10%;
+  margin: 20px 0;
 }
 
 .hero-container > div {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,6 +54,7 @@ body {
   font-size: 100px;
   width: 360px;
   margin: 20px 0;
+  font-weight: bolder;
 }
 
 .hero-container > p {
@@ -60,7 +63,7 @@ body {
 }
 
 .hero-container > img {
-  width: 50%;
+  width: 40%;
   height: 400px;
   width: 380px;
   align-self: center;
