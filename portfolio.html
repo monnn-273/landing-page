@@ -4,50 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Monika's Web</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Monika's Web - Blog</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="style.css" />
+    </head>
   </head>
   <body>
     <!-- NAVBAR SECTION -->
     <nav class="navbar">
       <h1>Monika's Web</h1>
       <div class="nav-item">
-        <a href="/index.html" class="active">Home</a>
+        <a href="/index.html">Home</a>
         <a href="/index.html#about">About</a>
-        <a href="/portfolio.html">Portfolio</a>
+        <a href="/portfolio.html" class="active">Portfolio</a>
         <a href="/blog.html">Blog</a>
       </div>
     </nav>
     <!-- END OF NAVBAR SECTION -->
-
-    <!-- HERO SECTION -->
-    <section class="hero-container">
-      <div>
-        <div>
-          <h1>Hi, It's Monika!</h1>
-          <p>Get to know me, explore my portfolio, or read what's going on my fuzzybrain!</p>
-        </div>
-      </div>
-      <img src="https://i.pinimg.com/564x/f3/22/ef/f322ef4ca268220188175abb0b44f8bb.jpg" alt="monika_illustration" />
-    </section>
-
-    <section class="about">
-      <div>
-        <div id="about">
-          <center><h1>About me</h1></center>
-          <p>My full name is Monika Angelia Panjaitan. Currently, I am a backend web-development enthusiast.</p>
-          <p>
-            I am a 3rd-year student in University of North Sumatera, registered at Bachelor of Information Technology Program. <br /><br />
-            <center><a href="" class="btn-secondary">Read More</a></center>
-          </p>
-        </div>
-      </div>
-      <img src="https://i.pinimg.com/564x/3e/9d/6d/3e9d6db4f46d76f94c7e869d46794040.jpg" alt="illustration_of_me" />
-    </section>
-    <!-- END OF HERO SECTION -->
 
     <!-- PORTFOLIO SECTION -->
     <section class="portfolio">
@@ -91,26 +71,44 @@
         </div>
       </div>
     </section>
-    <!-- END OF PORTFOLIO SECTION -->
 
-    <!-- BLOG SECTION -->
-    <section class="blog">
-      <img src="https://i.pinimg.com/564x/62/0b/df/620bdfae7b5c1baef8840e0fbbbc2438.jpg" alt="" />
-      <div>
-        <div>
-          <h1>My Article</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, voluptas. Aperiam, rem! Nihil provident aperiam modi maxime placeat consequatur hic sint est. Voluptas possimus voluptate laudantium laboriosam saepe magnam
-            itaque!
-          </p>
+    <section class="portfolio">
+      <div class="portfolio-content">
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/95/4c/c4/954cc4c9a54a3dd6b89bfac51f0ff9ec.jpg" alt="" />
+          <div class="card-body">
+            <h3>Linggom Coffee</h3>
+            <p>Linggom Coffee is one of UMKM in my regency. They sell original processed coffee bean from Sidikalang, Dairi Regency that also known as "Kota Kopi". Here's their marketplace that developed by me.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn-primary">Read More</a>
+          </div>
         </div>
-        <div class="blog-footer">
-          <p class="article-date">April, 04 2023</p>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/3f/18/ea/3f18eafeddd445f660b1c803d5b83d82.jpg" alt="" />
+          <div class="card-body">
+            <h3>Thesis Administration System</h3>
+            <p>Thesis Administration System accomodates the involved role as lecture, faculty staff, student, head of study program, etc in order to ease the administration management flow for thesis as knows as "Skripsi".</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn-primary">Read More</a>
+          </div>
         </div>
-        <a href="/blog.html" class="btn-secondary">See More</a>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/ff/97/74/ff9774d0eccb300a0a88e340c1d92ee3.jpg" alt="" />
+          <div class="card-body">
+            <h3>Splora, Travelling Application</h3>
+            <p>Splora is a travelling guide application. It helps tourist to explore Indonesia as known as Nusantara. This app have so much awesome features such as virtual-reality, integrated e-wallet to pay for hotel and resto, etc.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn-primary">Read More</a>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- END OF BLOG SECTION -->
+    <!-- END OF  PORTFOLIO SECTION-->
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -118,6 +116,6 @@
         <p>Copyright <b>Monika's Web</b> &copy; 2023. All rights reserved.</p>
       </div>
     </footer>
-    <!-- FOOTER SECTION -->
+    <!-- END OF FOOTER SECTION -->
   </body>
 </html>
