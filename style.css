@@ -335,7 +335,7 @@ footer {
 .single-blog-container {
   display: flex;
   flex-direction: column;
-  height: 720px;
+  height:fit-content;
   justify-content: center;
   align-self: center;
   margin: 40px 20% 40px 20%;
